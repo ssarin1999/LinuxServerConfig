@@ -191,9 +191,9 @@ Port: 2200
    import sys
    import logging
    logging.basicConfig(stream=sys.stderr)
-   sys.path.insert(0,"/var/www/nuevoMexico/")
+   sys.path.insert(0,"/var/www/catalog")
 
-   from nuevoMexico import app as application
+   from catalog import app as application
    application.secret_key = 'super_secret_key'
 ```
 3. Restart **Apache**: `$ sudo service apache2 reload`
@@ -209,7 +209,7 @@ Port: 2200
 1. Run `$ sudo python database_setup.py`
 2. Run `$ sudo python lotsofitems.py`
 3. Restart **Apache**: `$ sudo service apache2 reload`
-4. Now follow the link to http://18.218.99.181/  the application should be runing online
+4. Now follow the link to http://35.182.250.231, the application should be runing online
 5. If internal errors occur: check the [Apache error file](https://www.a2hosting.com/kb/developer-corner/apache-web-server/viewing-apache-log-files)
 
 
