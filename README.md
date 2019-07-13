@@ -212,4 +212,8 @@ Port: 2200
 4. Now follow the link to http://35.182.250.231, the application should be runing online
 5. If internal errors occur: check the [Apache error file](https://www.a2hosting.com/kb/developer-corner/apache-web-server/viewing-apache-log-files)
 
+##Third Party Resources
+1. Amazon Lightsail
+2. Google API Console
+3. Apache
 
